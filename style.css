@@ -267,13 +267,13 @@
 .sixth-second-part{
     display: flex;
     margin-top: 120px;
+    line-height: 80px;
 }
 
 .sixth-second-part1{
     width: 330px;
     height: 665px;
     border: 3px  solid black ;
-    
 }
 .sixth-second-part2{
     width: 330px;
@@ -281,4 +281,37 @@
     border: 1px  solid black ;
     position: relative;
     top: -36px;
+    
+}
+.sixth-second-part3{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.sixth-second-part4{
+    text-align: left;
+    line-height: 40px;
+    padding-top: 30px;
+    color: #23A6F0;
+}
+.sixth-second-part5{
+ line-height: 45px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.sixth-second-btn6{
+    width: 256px;
+    height: 52px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:35px ;
+    margin-top: 70px;
+    border: none;
+    background-color: #23A6F0;
+    color: white;
 }
